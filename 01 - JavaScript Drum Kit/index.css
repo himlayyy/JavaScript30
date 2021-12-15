@@ -1,0 +1,32 @@
+html{
+    background: url('./background.jpg') no-repeat bottom center;
+    font-family:Arial, Helvetica, sans-serif;
+ 
+}
+body{
+    padding:0px;
+    margin:0px;
+}
+
+.keys{
+    display:flex;
+    min-height:100vh;
+    justify-content: center;    
+    align-items:center;
+    flex:1;
+    flex-wrap: wrap;
+    margin:0 25px 0 25px;
+}
+.key{
+    text-align:center;
+    border:3px solid black;
+    padding:10px 5px;
+    margin:5px;
+    border-radius:5px;
+    color:white;
+    font-size:30px;
+}
+.inst{
+    color:#ffc600;
+    font-size:18px;
+}
